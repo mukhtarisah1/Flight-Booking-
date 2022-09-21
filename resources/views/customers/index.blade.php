@@ -34,7 +34,7 @@
                         <td>{{$customer->customerdestination->first()->from_des}}</td>
                         <td>{{$customer->customerdestination->first()->to_des}}</td>
                         <td>{{$customer->customerdestination->first()->date}}</td>
-                        <td><a href="/customers/{{$customer->id}}/edit"><button type="button" class="btn btn-primary btn-sm">Edit</button></a>&nbsp &nbsp
+                        <td class="d-flex"><a href="/customers/{{$customer->id}}/edit"><button type="button" class="btn btn-primary btn-sm" >Edit</button></a>&nbsp &nbsp
                             <form action="/customers/{{$customer->id}}" method="POST">
                                 @csrf
                                 @method('DELETE')
