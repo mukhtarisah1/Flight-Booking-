@@ -5,8 +5,14 @@
         <div class="card" >
             
             <div class="card-body">
-              <h5 class="card-title">Customer Details</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.<br>
+              <h3 class="card-title">Customer Details</h3>
+              <p class="card-text">
+                <h4>
+                  View all the available details about customer <strong>
+                    <em>
+                      {{$customer->firstname}} &nbsp; {{$customer->othername}} &nbsp {{$customer->lastname}}</strong>.<br>
+                    </em>
+                </h4>
                 <div>
                   <strong>Name:&nbsp; </strong> {{$customer->firstname}} &nbsp; {{$customer->othername}} &nbsp {{$customer->lastname}}</h6><br>
                   <strong>Email:&nbsp; </strong> {{$customer->email}} <br>
