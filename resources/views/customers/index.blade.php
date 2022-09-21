@@ -2,6 +2,10 @@
 
 @section('content')
     <div class="container">
+        <div class="div" m-3>
+            <a href="/customers/create" class="btn btn-primary">Add customer</a>
+        </div>
+        
         <h1 class="justufy-center">Cutomer Entry Details list</h1>
         <table class="table table-bordered">
             <thead>
