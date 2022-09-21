@@ -1,0 +1,6 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/kanemair/app.kanemair.ng/
+ - /bin/cp * $DEPLOYPATH
+ - 
